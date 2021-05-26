@@ -1,6 +1,8 @@
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
-const handler = async (event) => {
+const handler = async event => {
   console.log("data", JSON.parse(event.body))
+  // add payment history to database !!
+
   try {
     return {
       statusCode: 200,

@@ -16,6 +16,12 @@ const IndexPage = () => {
         data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
         data-item-image="https://assets.ajio.com/medias/sys_master/root/h0e/h57/14092954894366/-473Wx593H-460455972-black-MODEL.jpg"
         data-item-name="The Shoes"
+        data-item-custom1-name="Size"
+        data-item-custom1-options="8|9[+5]|10[+7]"
+        data-item-custom2-name="Colors"
+        data-item-custom2-options="Red|Yellow|Green"
+        data-item-custom3-name="Need socks ?"
+        data-item-custom3-type="checkbox"
       >
         Checkout
       </button>

@@ -8,6 +8,17 @@ const IndexPage = () => {
     <Layout>
       <Seo title="Home" />
       <h1>Hello World !</h1>
+
+      <div>
+        <button className="snipcart-checkout">Click here to checkout</button>
+        <p>
+          Items: <span className="snipcart-items-count"></span>
+        </p>
+        <p>
+          Price: <span className="snipcart-total-price"></span>
+        </p>
+      </div>
+
       <button
         class="snipcart-add-item"
         data-item-id="formal-shoe"
@@ -23,7 +34,7 @@ const IndexPage = () => {
         data-item-custom3-name="Need socks ?"
         data-item-custom3-type="checkbox"
       >
-        Checkout
+        Add to cart (Test)
       </button>
     </Layout>
   )
